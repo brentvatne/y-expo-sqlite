@@ -1,0 +1,48 @@
+{
+  "name": "y-expo-sqlite",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "y-expo-sqlite",
+    "yjs",
+    "persistence",
+    "YExpoSqlite"
+  ],
+  "repository": "https://github.com/brentvatne/y-expo-sqlite",
+  "bugs": {
+    "url": "https://github.com/brentvatne/y-expo-sqlite/issues"
+  },
+  "author": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+  "license": "MIT",
+  "homepage": "https://github.com/brentvatne/y-expo-sqlite#readme",
+  "dependencies": {
+    "lib0": "^0.2.94"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.14",
+    "expo-sqlite": "*",
+    "yjs": "*"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*",
+    "expo-sqlite": "*",
+    "yjs": "*"
+  }
+}
